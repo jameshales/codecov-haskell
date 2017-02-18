@@ -12,7 +12,6 @@
 
 module Trace.Hpc.Codecov.Curl ( postJson, readCoverageResult, PostResult (..) ) where
 
-import           Control.Applicative
 import           Control.Monad
 import           Data.Aeson
 import           Data.Aeson.Types (parseMaybe)
